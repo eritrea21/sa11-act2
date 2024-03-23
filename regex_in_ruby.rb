@@ -18,7 +18,7 @@ def extract_hashtags(text)
   
   # 3. Finding Numeric Values in a String
   def find_numbers(text)
-    pattern = /\d+(\.\d+)?/
+    pattern = /\d+(?:\.\d+)?/
     text.scan(pattern)
   end
   
